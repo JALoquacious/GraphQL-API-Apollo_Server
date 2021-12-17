@@ -1,0 +1,14 @@
+{
+  "name": "graphql_api_apollo_server",
+  "version": "1.0.0",
+  "description": "Demo based on Pluralsight course \"Building a GraphQL API with Apollo Server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "2.12"
+  }
+}
