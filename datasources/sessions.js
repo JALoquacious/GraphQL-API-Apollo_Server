@@ -7,7 +7,7 @@ class SessionAPI extends DataSource {
         super();
     }
 
-    initialize(config) {}
+    initialize(config) { }
 
     getSessions(args) {
         return _.filter(sessions, args);
