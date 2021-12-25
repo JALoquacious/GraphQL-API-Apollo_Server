@@ -35,5 +35,6 @@ module.exports = gql`
         format: String,
         track: String @deprecated(reason: "Too many sessions do not fit into a single track. We will be migrating to a tags-based system in the future."),
         level: String
+        speakers: [Speaker]
     }
 `;
