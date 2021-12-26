@@ -8,7 +8,7 @@ module.exports = gql`
             description: String
             startsAt: String
             endsAt: String
-            room: String
+            room: Room
             day: String
             format: String
             track: String
@@ -53,5 +53,20 @@ module.exports = gql`
         track: String
         level: String
         favorite: Boolean
+    }
+    enum Room {
+        Callisto
+        Earth
+        Europa
+        Ganymede
+        Io
+        Jupiter
+        Mars
+        Mercury
+        Neptune
+        Saturn
+        Sol
+        Titan
+        Venus
     }
 `;
