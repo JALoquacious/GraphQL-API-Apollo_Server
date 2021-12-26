@@ -8,7 +8,7 @@ module.exports = {
   speakers: (parent, args, { dataSources }, info) => {
     return dataSources.speakerAPI.getSpeakers();
   },
-  sessionById: (parent, { id }, { dataSources }, info) => {
+  speakerById: (parent, { id }, { dataSources }, info) => {
     return dataSources.speakerAPI.getSpeakerById(id);
   }
 };
